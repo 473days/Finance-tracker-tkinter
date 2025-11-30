@@ -1,43 +1,34 @@
-# Finance-tracker-tkinter
+# Personal Finance Tracker
 
-Persönlicher Finanz-Tracker
+A web-based personal finance tracking application built with FastAPI and vanilla JavaScript.
 
-Ein einfacher Finanzmanager, der mit Python und Tkinter erstellt wurde.
+## Features
 
-Funktionen
+- Track income and expenses
+- Categorize transactions
+- Monthly financial summaries
+- Category-wise spending analysis
+- Easy data management
 
-    Einnahmen und Ausgaben erfassen
+## Tech Stack
 
-    Transaktionen nach Kategorien organisieren
+- **Backend**: FastAPI, SQLite
+- **Frontend**: Bootstrap, Vanilla JavaScript
+- **Currency**: Euros (€)
 
-    Monatliche Übersicht mit Einnahmen, Ausgaben und Saldo
+## Installation
 
-    Transaktionen löschen und bearbeiten
+1. Clone the repository
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run the application: `uvicorn main:app --reload`
+4. Open http://localhost:8000
 
-    Kategorie-basierte Auswertung
+## API Endpoints
 
-Wie man es benutzt
-
-    Stellen Sie sicher, dass Python installiert ist
-
-    Führen Sie aus: python main.py
-
-    Einnahmen und Ausgaben über die Formulare hinzufügen
-
-    Durch Monate mit den Pfeiltasten navigieren
-
-Anforderungen
-
-    Python 3.x
-
-    Tkinter (normalerweise in Python enthalten)
-
-Nächste Schritte
-
-    Budget-Funktionalität hinzufügen
-
-    Datenexport (CSV, PDF) implementieren
-
-    Diagramme und Visualisierungen einfügen
-
-    Dunkelmodus und weitere Themes hinzufügen
+- `POST /expenses/` - Add new expense
+- `POST /income/` - Add new income
+- `GET /expenses/` - Get expenses
+- `GET /income/` - Get income
+- `GET /summary/` - Get financial summary
+- `DELETE /expenses/{id}` - Delete expense
+- `DELETE /income/{id}` - Delete income
