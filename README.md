@@ -4,9 +4,11 @@
 ## Anwendungsübersicht
 
 <img width="1914" height="915" alt="image" src="https://github.com/user-attachments/assets/1ba0e276-d2b2-47e8-98f2-6d218e9e1d33" />
-Funktionsdemo
+## Funktionsdemo
+
 <img width="1265" height="425" alt="image" src="https://github.com/user-attachments/assets/bcefb8d7-2400-446f-a435-4a454352c160" /><img width="1267" height="424" alt="image" src="https://github.com/user-attachments/assets/eca44b7c-46d2-498c-b5cf-139e9c869df9" />
-Funktionen
+
+## Funktionen
 
     Einnahmen und Ausgaben verfolgen
 
