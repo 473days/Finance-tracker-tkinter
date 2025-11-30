@@ -1,4 +1,5 @@
-Personal Finance Tracker
+
+## Personal Finance Tracker
 
 Eine webbasierte Anwendung zur Verwaltung persönlicher Finanzen, entwickelt mit FastAPI und vanilla JavaScript.
 Screenshots und Demos
@@ -18,7 +19,7 @@ Funktionen
 
     Einfache Datenverwaltung
 
-Tech Stack
+## Tech Stack
 
     Backend: FastAPI, SQLite, Pydantic, Uvicorn
 
@@ -26,7 +27,7 @@ Tech Stack
 
     Währung: Euro (€)
 
-Installation
+## Installation
 
     Repository klonen
 
@@ -36,7 +37,7 @@ Installation
 
     Öffnen Sie http://localhost:8000
 
-API Endpoints
+## API Endpoints
 
     POST /expenses/ - Neue Ausgabe hinzufügen
 
@@ -52,7 +53,7 @@ API Endpoints
 
     DELETE /income/{id} - Einnahme löschen
 
-Geplante Erweiterungen
+## Geplante Erweiterungen
 
     Benutzerauthentifizierung und mehrere Konten
 
